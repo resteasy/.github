@@ -9,7 +9,7 @@ Thank you for using RESTEasy! Here are ways to get help:
 
 ## Ask Questions
 
-- **GitHub Discussions** - Ask questions in the [Discussions](https://github.com/resteasy/resteasy/discussions) section
+- **GitHub Discussions** - Ask questions in the [Discussions](https://github.com/orgs/resteasy/discussions) section
 - **Stack Overflow** - Tag your questions with `resteasy` and `jakarta-rest`
 
 ## Report Bugs

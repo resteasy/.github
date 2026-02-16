@@ -32,7 +32,7 @@ This repository contains the following community health files that apply to all 
 - **Website**: [resteasy.dev](https://resteasy.dev)
 - **Issue Tracking**: Most repositories use GitHub Issues. The main [resteasy](https://github.com/resteasy/resteasy) repository uses [JIRA](https://issues.redhat.com/browse/RESTEASY).
 - **Documentation**: Available on the main website
-- **Discussions**: GitHub Discussions on individual repositories
+- **Discussions**: [GitHub Discussions](https://github.com/orgs/resteasy/discussions)
 - **Project Lead**: [James Perkins](https://github.com/jamezp) (IBM)
 - **Funding**: Supported by [Commonhaus Foundation](https://www.commonhaus.org/)
 

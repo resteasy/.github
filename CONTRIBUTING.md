@@ -11,7 +11,7 @@ All original contributions to RESTEasy are licensed under the
 specified as governing the file or directory being modified, such other license.
 
 All contributions are subject to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/).
-The DCO text is also included verbatim in the [dco.txt](dco.txt) file in the root directory of the repository.
+The DCO text is also included verbatim in the [dco.txt](./dco.txt) file in the root directory of the repository.
 
 ## Reporting an issue
 
@@ -46,7 +46,7 @@ If you have not done so on this machine, you need to:
 ### IDE Config and Code Style
 
 RESTEasy has a strictly enforced code style. Code formatting is done by the Eclipse code formatter, using the config files
-found in the [eclipse-code-formatter.xml](https://github.com/resteasy/resteasy-dev-tools/tree/main/ide-config/src/main/resources)
+found in the [eclipse-code-formatter.xml](https://raw.githubusercontent.com/resteasy/resteasy-dev-tools/main/ide-config/src/main/resources/eclipse-code-formatter.xml)
 file. By default, when you run `./mvnw install`, the code will be formatted automatically.
 When submitting a pull request the CI build will fail if running the formatter results in any code changes, so it is
 recommended that you always run a full Maven build before submitting a pull request.
@@ -58,9 +58,35 @@ If you want to run the formatting without doing a full build, you can run `./mvn
 Open the *Preferences* window, and then navigate to *Java* -> *Code Style* -> *Formatter*. Click *Import* and then
 select the `eclipse-code-formatter.xml` downloaded from the above link or clone the repository and navigate to the file.
 
-Next navigate to *Java* -> *Code Style* -> *Organize Imports*. Click *Import* and select the `eclipse.importorder` file.
+Next navigate to *Java* -> *Code Style* -> *Organize Imports*. Click *Import* and select the [eclipse.importorder](https://raw.githubusercontent.com/resteasy/resteasy-dev-tools/main/ide-config/src/main/resources/eclipse.importorder) file.
 
 #### IDEA Setup
 
 Install the [Adapter for Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-adapter-for-eclipse-code-formatter/).
 See the [documentation](https://github.com/krasa/EclipseCodeFormatter#instructions) on how to configure the plugin.
+
+## Contributing Your Changes
+
+### Creating a Pull Request
+
+1. Fork the repository you want to contribute to
+2. Create a feature branch from the default branch (usually `main`)
+3. Make your changes and commit them with descriptive commit messages
+4. Push your branch to your fork
+5. Open a Pull Request against the original repository
+
+By submitting a pull request, you agree to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/)
+as outlined in the Legal section above.
+
+### Testing
+
+Before submitting a pull request, ensure that all tests pass. Each project may have different test commands -
+refer to the project's README for specific build and test instructions.
+
+### Getting Help
+
+If you have questions or need help with your contribution:
+
+* Open a [discussion](https://github.com/orgs/resteasy/discussions) in the RESTEasy organization
+* Ask in the pull request itself
+* For project-specific questions, check the individual project's README or documentation
