@@ -13,7 +13,7 @@ of transparency, open collaboration, and community involvement.
     particular enforcing compliance with requirements of the Commonhaus Foundation.
 * **Organization Project Lead**: Maintainer with higher decision power in all projects and components.
   Acts as the WildFly Commonhaus Organization Project Lead for the RESTEasy Organization at the WCO. Responsible
-  for communicating the overall RESTEasy organizations project directory and roadmap to the RESTEasy community.
+  for communicating the overall RESTEasy organization's project direction and roadmap to the RESTEasy community.
   Responsible for keeping the project's technical direction consistent, safe and sustainable. This involves in
   particular enforcing compliance with requirements of the Commonhaus Foundation.
 
@@ -59,7 +59,7 @@ with additional restrictions:
 2. The opinion of the Maintainer, Project Lead or Organization Project Lead whose role is being discussed does not
    factor
    into the decision.
-3. Discussions regarding the role of Project Lead may not last less than 30 days.
+3. Discussions regarding the role of Project Lead must last at least 30 days.
 
 ### Eligible candidates:
 
@@ -76,9 +76,9 @@ decision revokes their role.
 ## Code of Conduct
 
 All participants in RESTEasy are expected to adhere to
-the [Commonhaus Foundation Code of Conduct](https://www.commonhaus.org/policies/code-of-conduct/). Please ensure you
-are familiar with its guidelines and expectations, as it’s essential for maintaining a positive and collaborative
-environment.
+the [RESTEasy Code of Conduct](./CODE_OF_CONDUCT.md), which is adopted in accordance with Commonhaus Foundation
+requirements. Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining
+a positive and collaborative environment.
 
 ## Trademark Policy
 
